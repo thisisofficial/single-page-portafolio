@@ -1,0 +1,19 @@
+.skills-continer{
+
+}
+
+.skills-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+}
+
+.skills-extra{
+    position: absolute;
+    right: 0;
+    transform: translateY(-100px);
+}
+
+.skills-extra > img{
+    transform: rotate(180deg);
+}

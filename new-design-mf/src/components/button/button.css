@@ -1,0 +1,29 @@
+.button-container{
+    padding: 0;
+    cursor: pointer;
+
+}
+
+.button-container:hover .button-background{
+    opacity: 100%;
+}
+.button-label{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    width: max-content;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4EE1A0;
+    transition: .2s;
+
+}
+
+.button-label:hover{
+    color: #4EE1A0;
+    cursor: pointer; 
+}
