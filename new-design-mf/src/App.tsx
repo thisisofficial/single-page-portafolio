@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import { HeroSection } from './sections/heroSection/HeroSection'
 import { SkillsSection } from './sections/skillsSection/SkillsSection'
 import { ProjectsSection } from './sections/projectsSection/ProjectsSection'
+import { ContactSection } from './sections/contactSection/ContactSection'
 import './App.css'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <ProjectsSection/>
       </div>
       <div className='footer'>
-
+        <ContactSection/>
       </div>
     </div>
   )
