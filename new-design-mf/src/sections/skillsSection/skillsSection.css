@@ -17,3 +17,19 @@
 .skills-extra > img{
     transform: rotate(180deg);
 }
+
+@media (max-width: 800px){
+    .skills-part{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(150px 3);
+    }
+
+    .skills-extra img{
+        width: 200px;
+        object-fit:none;
+        height: 200px;
+        object-position: 100%;
+    }
+
+    
+}
