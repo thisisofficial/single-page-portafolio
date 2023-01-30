@@ -30,3 +30,9 @@
 .projects-header-button{
 
 }
+
+@media(max-width: 800px){
+    .projects-header{
+        margin-bottom: 50px;
+    }
+}

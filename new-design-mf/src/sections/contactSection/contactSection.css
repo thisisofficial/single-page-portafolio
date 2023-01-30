@@ -9,13 +9,13 @@
 
 .contact-container{
     display: flex;
-
-    justify-content: space-around   ;
+    width: 70%;
+    justify-content: space-between   ;
 
 }
 
 .contact-part{
-     width: 40%;
+     width: 35%;
 }
 
 .footer-foot-container{
@@ -50,4 +50,36 @@
     position: absolute;
     left: 0;
     transform: translateY(280px);
+}
+
+
+@media (max-width: 800px){
+    .contact-container{
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-part{
+        width: 80%;
+    }
+    .footer-container{
+        width: 100%;
+    }
+
+    .footer-bg img{
+        width: 100px;
+        object-fit:none;
+        height: 200px;
+        object-position: 100%;
+    }
+
+    .footer-bg{
+        transform: translateY(470px);
+    }
+
+    .footer-foot-container{
+        margin: 100px 0 50px;
+        width: 90%;
+    }
 }

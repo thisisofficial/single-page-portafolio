@@ -8,13 +8,15 @@
     align-self: flex-end;
   }
   
-  .input-container {
+  .input-container ,.input-textarea-container{
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     gap: 5px;
     justify-content: center;
+    width: 100%;
   }
+
   
   .input-text,
   .input-textarea {
@@ -22,6 +24,7 @@
     border: none;
     border-bottom: 1px solid #ffffff;
     min-width: 343px;
+    width: 100%;
     font-family: "Space Grotesk";
     font-style: normal;
     font-weight: 500;
@@ -63,9 +66,10 @@
     }
   }
   
-  @media (max-width: 8000px) {
+  @media (max-width: 800px) {
     .form-container {
       align-items: center;
       text-align: center;
     }
+
   }

@@ -25,7 +25,7 @@ export const HeroSection = () => {
                 <Button label='CONTACT US'/>
             </div>
             <div className='hero-info-image'>
-                <img  src={Adam}></img>
+                <img className='adam' src={Adam}></img>
                 <img className='hero-bg-1' src={Circle}></img>
             </div>
         </div>

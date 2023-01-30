@@ -64,5 +64,32 @@
 }
 
 @media( max-width: 800px){
+    .project-container{
+        max-height: fit-content;
+        max-width: 340px;
+    }
+    .project-buttons{
+        position:static;
+        height: 100px;
 
+    }
+    .project-overlay{
+        transform: none;
+        flex-direction:row;
+        background-color: transparent;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .project-overlay div{
+        margin: 0 20px 0 0;
+    }
+
+    .project-skills{
+        margin-bottom: 0;
+    }
+
+    .project-image img{
+        width: 340px;
+    }
 }
