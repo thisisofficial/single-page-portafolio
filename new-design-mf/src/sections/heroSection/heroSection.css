@@ -128,6 +128,7 @@ b{
         object-fit: contain;
         overflow-x: hidden;
         width: 355px;
+        height: auto;
     }
 
     .hero-bg{
