@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '../../components/button/Button';
-import Adam  from '../../assets/image-removebg-preview(4)Adam.png';
+import Adam  from '../../assets/image-removebg-preview(4).png';
 import Icon from '../../assets/Group-26bg-feature.svg';
 import Circle from '../../assets/OvalCircle.svg';
 import Icons from '../../assets/Group-12.svg';
@@ -13,7 +13,7 @@ export const HeroSection = () => {
             <img className='hero-bg-2' src={Icon}></img>
         </div>
         <div className='hero-header'>
-            <div className='hero-header-title'>adam keyes</div>
+            <div className='hero-header-title'>adamkeyes</div>
             <div className='hero-header-icons'>
                 <img src={Icons}></img>
             </div>

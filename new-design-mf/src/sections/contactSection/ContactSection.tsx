@@ -20,7 +20,7 @@ export const ContactSection = () => {
         <img className='footer-bg-2' src={Icon}></img>
       </div>
       <div className='footer-foot-container'>
-        <div className='footer-foot-title'>adam keyes</div>
+        <div className='footer-foot-title'>adamkeyes</div>
         <div className='footer-foot-icons'>
           <img src={Icons}></img>
         </div>

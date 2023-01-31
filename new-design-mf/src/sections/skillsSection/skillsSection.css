@@ -21,7 +21,7 @@
 @media (max-width: 800px){
     .skills-part{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(150px 3);
+        grid-template-rows: repeat(3, 150px);
     }
 
     .skills-extra img{
@@ -32,4 +32,15 @@
     }
 
     
+}
+
+@media(max-width: 400px){
+    .skills-part{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 105px );
+    }
+
+    .skills-container{
+        border-bottom: white 1px solid;
+    }
 }

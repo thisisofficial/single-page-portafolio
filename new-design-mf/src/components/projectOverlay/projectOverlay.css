@@ -93,3 +93,9 @@
         width: 340px;
     }
 }
+
+@media(max-width: 400px){
+    .project-image img{
+        width: 100%;
+    }
+}

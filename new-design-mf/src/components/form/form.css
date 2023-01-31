@@ -23,7 +23,6 @@
     background: transparent;
     border: none;
     border-bottom: 1px solid #ffffff;
-    min-width: 343px;
     width: 100%;
     font-family: "Space Grotesk";
     font-style: normal;
@@ -63,6 +62,10 @@
   
     .input-textarea {
       padding-bottom: 71px;
+    }
+
+    .input-text , .input-textarea-container{
+        width: 320px;
     }
   }
   
